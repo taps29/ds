@@ -11,7 +11,7 @@ void chardel(string);
 void palindrome(string);
 };
 void STRING :: frequency(string arr)
-MIT ADT University, Pune
+
 {
 //cout<<"The string is"<<arr<<endl;
 char ch;
@@ -36,7 +36,7 @@ for(i=j-1;arr[i]!='\0';i++)
 {
 arr[i]=arr[i+1];
 }
-MIT ADT University, Pune
+
 for(i=k-2;arr[i]!='\0';i++)
 {
 arr[i]=arr[i+1];
@@ -60,7 +60,7 @@ len++;
 for(i=j=0;i<len;i++)
 {
 if(arr[i]!=ch)
-MIT ADT University, Pune
+
 {
 arr1[j++]=arr[i];
 }
@@ -85,7 +85,7 @@ for(i=0,j=count-1;i<=a;i++,j--)
 if(arr[i]!=arr[j])
 {
 cout<<"It is not a palindrome"<<endl;
-MIT ADT University, Pune
+
 break;
 }
 }
@@ -112,7 +112,7 @@ case 1:
 obj.frequency(ch);
 break;
 }
-MIT ADT University, Pune
+
 case 2:
 {
 obj.deletel(ch);
